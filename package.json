@@ -2,13 +2,13 @@
   "name": "user-management-enterprise",
   "version": "1.0.0",
   "description": "",
-  "main": "ecosystem.config.js",
+  "main": "ecosystem.config.cjs",
   "bin": {
     "user-management-enterprise": "bin/www.js"
   },
   "scripts": {
     "dev": "nodemon ./bin/www.js",
-    "start": "pm2-runtime ecosystem.config.js"
+    "start": "pm2-runtime ecosystem.config.cjs"
   },
   "type": "module",
   "keywords": [],
